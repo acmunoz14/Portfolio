@@ -366,7 +366,7 @@ function App() {
                     Junior/Senior
                   </span>
                 </div>
-                <div className="grid md:grid-cols-2 gap-4 text-gray-700">
+                <div className="grid md:grid-cols-2 gap-4 text-gray-700 mb-4">
                   <div>
                     <p className="font-medium text-gray-900">Format</p>
                     <p className="text-purple-600">Fully Online (MGA Direct)</p>
@@ -384,6 +384,13 @@ function App() {
                     <p className="text-red-600 font-medium">29/30 seats filled (Waitlist full)</p>
                   </div>
                 </div>
+                <a
+                  href="/25185_itec_3155-01_munoz_spring_2026.docx"
+                  download
+                  className="inline-flex items-center text-purple-600 hover:text-purple-800 font-medium"
+                >
+                  Download Syllabus →
+                </a>
               </div>
 
               {/* ITEC 3155-02 */}
@@ -397,7 +404,7 @@ function App() {
                     Junior/Senior
                   </span>
                 </div>
-                <div className="grid md:grid-cols-2 gap-4 text-gray-700">
+                <div className="grid md:grid-cols-2 gap-4 text-gray-700 mb-4">
                   <div>
                     <p className="font-medium text-gray-900">Meeting Days</p>
                     <p>Monday & Wednesday</p>
@@ -415,6 +422,9 @@ function App() {
                     <p>3 Credits / CRN 26555</p>
                   </div>
                 </div>
+                <span className="inline-flex items-center text-gray-400 font-medium">
+                  Syllabus Coming Soon
+                </span>
               </div>
 
               {/* ITEC 3235-02 */}
@@ -428,7 +438,7 @@ function App() {
                     Junior/Senior
                   </span>
                 </div>
-                <div className="grid md:grid-cols-2 gap-4 text-gray-700">
+                <div className="grid md:grid-cols-2 gap-4 text-gray-700 mb-4">
                   <div>
                     <p className="font-medium text-gray-900">Format</p>
                     <p className="text-purple-600">Fully Online</p>
@@ -442,6 +452,9 @@ function App() {
                     <p>26400</p>
                   </div>
                 </div>
+                <span className="inline-flex items-center text-gray-400 font-medium">
+                  Syllabus Coming Soon
+                </span>
               </div>
 
               {/* ITEC 3235-03 */}
@@ -460,7 +473,7 @@ function App() {
                     </span>
                   </div>
                 </div>
-                <div className="grid md:grid-cols-2 gap-4 text-gray-700">
+                <div className="grid md:grid-cols-2 gap-4 text-gray-700 mb-4">
                   <div>
                     <p className="font-medium text-gray-900">Meeting Days</p>
                     <p>Monday & Wednesday</p>
@@ -478,6 +491,9 @@ function App() {
                     <p>3 Credits / CRN 26556</p>
                   </div>
                 </div>
+                <span className="inline-flex items-center text-gray-400 font-medium">
+                  Syllabus Coming Soon
+                </span>
               </div>
             </div>
           </div>
@@ -495,7 +511,7 @@ function App() {
                   Graduate
                 </span>
               </div>
-              <div className="grid md:grid-cols-2 gap-4 text-gray-700">
+              <div className="grid md:grid-cols-2 gap-4 text-gray-700 mb-4">
                 <div>
                   <p className="font-medium text-gray-900">Format</p>
                   <p className="text-purple-600">Fully Online (MGA Direct)</p>
@@ -513,6 +529,9 @@ function App() {
                   <p>March 9 – May 6, 2026</p>
                 </div>
               </div>
+              <span className="inline-flex items-center text-gray-400 font-medium">
+                Syllabus Coming Soon
+              </span>
             </div>
           </div>
         </div>
