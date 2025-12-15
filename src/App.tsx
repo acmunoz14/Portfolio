@@ -242,6 +242,43 @@ function App() {
               </div>
             </div>
 
+            {/* Organizations */}
+            <div>
+              <h3 className="text-2xl font-semibold text-gray-900 mb-6 border-l-4 border-purple-600 pl-4">Organizations</h3>
+              <div className="space-y-6">
+                <div className="bg-gray-50 p-6 rounded-lg hover:shadow-md transition-shadow">
+                  <h4 className="text-xl font-semibold text-gray-900">Healthcare Information and Management Systems Society (HIMSS)</h4>
+                  <p className="text-purple-600 font-medium">Member, Georgia Chapter, 2025–Present</p>
+                  <p className="text-gray-600">Oct 2025 - Present</p>
+                  <p className="text-gray-600 text-sm mt-2">Associated with Middle Georgia State University</p>
+                </div>
+                <div className="bg-gray-50 p-6 rounded-lg hover:shadow-md transition-shadow">
+                  <h4 className="text-xl font-semibold text-gray-900">Alpha Iota Mu</h4>
+                  <p className="text-purple-600 font-medium">Member</p>
+                  <p className="text-gray-600">Apr 2025 - Present</p>
+                  <p className="text-gray-600 text-sm mt-2">Associated with Middle Georgia State University</p>
+                </div>
+                <div className="bg-gray-50 p-6 rounded-lg hover:shadow-md transition-shadow">
+                  <h4 className="text-xl font-semibold text-gray-900">Sigma Alpha Pi National Society of Leadership and Success (NSLS)</h4>
+                  <p className="text-purple-600 font-medium">Member</p>
+                  <p className="text-gray-600">Jul 2021 - Present</p>
+                  <p className="text-gray-600 text-sm mt-2">Associated with Middle Georgia State University</p>
+                </div>
+                <div className="bg-gray-50 p-6 rounded-lg hover:shadow-md transition-shadow">
+                  <h4 className="text-xl font-semibold text-gray-900">Lambda Pi Eta National Communications Association Honor Society</h4>
+                  <p className="text-purple-600 font-medium">Member</p>
+                  <p className="text-gray-600">May 2007 - Present</p>
+                  <p className="text-gray-600 text-sm mt-2">Associated with Georgia College & State University</p>
+                </div>
+                <div className="bg-gray-50 p-6 rounded-lg hover:shadow-md transition-shadow">
+                  <h4 className="text-xl font-semibold text-gray-900">Phi Theta Kappa Honor Society</h4>
+                  <p className="text-purple-600 font-medium">Member</p>
+                  <p className="text-gray-600">Mar 2004 - Present</p>
+                  <p className="text-gray-600 text-sm mt-2">Associated with East Georgia State College</p>
+                </div>
+              </div>
+            </div>
+
             {/* Experience */}
             <div>
               <h3 className="text-2xl font-semibold text-gray-900 mb-6 border-l-4 border-purple-600 pl-4">Experience</h3>
