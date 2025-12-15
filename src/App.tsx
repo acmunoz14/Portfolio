@@ -33,6 +33,7 @@ function App() {
               <button onClick={() => scrollToSection('resume')} className={`transition-colors ${activeSection === 'resume' ? 'text-purple-600' : 'text-gray-700 hover:text-purple-600'}`}>Resume</button>
               <button onClick={() => scrollToSection('research')} className={`transition-colors ${activeSection === 'research' ? 'text-purple-600' : 'text-gray-700 hover:text-purple-600'}`}>Research</button>
               <button onClick={() => scrollToSection('teaching')} className={`transition-colors ${activeSection === 'teaching' ? 'text-purple-600' : 'text-gray-700 hover:text-purple-600'}`}>Teaching</button>
+              <button onClick={() => scrollToSection('courses')} className={`transition-colors ${activeSection === 'courses' ? 'text-purple-600' : 'text-gray-700 hover:text-purple-600'}`}>Courses</button>
             </div>
 
             {/* Mobile menu button */}
@@ -53,6 +54,7 @@ function App() {
               <button onClick={() => scrollToSection('resume')} className="block w-full text-left px-3 py-2 text-gray-700 hover:bg-purple-50 hover:text-purple-600 rounded-md">Resume</button>
               <button onClick={() => scrollToSection('research')} className="block w-full text-left px-3 py-2 text-gray-700 hover:bg-purple-50 hover:text-purple-600 rounded-md">Research</button>
               <button onClick={() => scrollToSection('teaching')} className="block w-full text-left px-3 py-2 text-gray-700 hover:bg-purple-50 hover:text-purple-600 rounded-md">Teaching</button>
+              <button onClick={() => scrollToSection('courses')} className="block w-full text-left px-3 py-2 text-gray-700 hover:bg-purple-50 hover:text-purple-600 rounded-md">Courses</button>
             </div>
           </div>
         )}
@@ -553,6 +555,74 @@ function App() {
         </div>
       </section>
 
+      {/* All Courses Taught */}
+      <section id="courses" className="py-20 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">All Courses Taught</h2>
+            <p className="text-xl text-gray-600">Middle Georgia State University</p>
+          </div>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {/* ITEC 2215 */}
+            <div className="bg-white rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow border-l-4 border-blue-600">
+              <h3 className="text-xl font-bold text-gray-900 mb-2">ITEC 2215</h3>
+              <p className="text-gray-700 font-medium">Introduction to Information Technology</p>
+            </div>
+
+            {/* ITEC 3155 */}
+            <div className="bg-white rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow border-l-4 border-blue-600">
+              <h3 className="text-xl font-bold text-gray-900 mb-2">ITEC 3155</h3>
+              <p className="text-gray-700 font-medium">Systems Analysis and Design</p>
+            </div>
+
+            {/* ITEC 3235 */}
+            <div className="bg-white rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow border-l-4 border-blue-600">
+              <h3 className="text-xl font-bold text-gray-900 mb-2">ITEC 3235</h3>
+              <p className="text-gray-700 font-medium">Human and Computer Interaction</p>
+            </div>
+
+            {/* ITEC 3300 */}
+            <div className="bg-white rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow border-l-4 border-blue-600">
+              <h3 className="text-xl font-bold text-gray-900 mb-2">ITEC 3300</h3>
+              <p className="text-gray-700 font-medium">Project Management</p>
+            </div>
+
+            {/* ITEC 4205 */}
+            <div className="bg-white rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow border-l-4 border-blue-600">
+              <h3 className="text-xl font-bold text-gray-900 mb-2">ITEC 4205</h3>
+              <p className="text-gray-700 font-medium">Legal and Ethical Issues in IT</p>
+            </div>
+
+            {/* ITEC 6300 */}
+            <div className="bg-white rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow border-l-4 border-purple-600">
+              <div className="flex items-start justify-between mb-2">
+                <h3 className="text-xl font-bold text-gray-900">ITEC 6300</h3>
+                <span className="bg-purple-600 text-white px-2 py-1 rounded text-xs font-medium">Graduate</span>
+              </div>
+              <p className="text-gray-700 font-medium">Advanced Health Information Technology</p>
+            </div>
+
+            {/* ITEC 6320 */}
+            <div className="bg-white rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow border-l-4 border-purple-600">
+              <div className="flex items-start justify-between mb-2">
+                <h3 className="text-xl font-bold text-gray-900">ITEC 6320</h3>
+                <span className="bg-purple-600 text-white px-2 py-1 rounded text-xs font-medium">Graduate</span>
+              </div>
+              <p className="text-gray-700 font-medium">Advanced Electronic Health Records</p>
+            </div>
+
+            {/* ITEC 6340 */}
+            <div className="bg-white rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow border-l-4 border-purple-600">
+              <div className="flex items-start justify-between mb-2">
+                <h3 className="text-xl font-bold text-gray-900">ITEC 6340</h3>
+                <span className="bg-purple-600 text-white px-2 py-1 rounded text-xs font-medium">Graduate</span>
+              </div>
+              <p className="text-gray-700 font-medium">Public Health Informatics</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="bg-black text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -565,9 +635,9 @@ function App() {
               <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
               <ul className="space-y-2 text-gray-400">
                 <li><button onClick={() => scrollToSection('resume')} className="hover:text-purple-400 transition-colors">Resume</button></li>
-                <li><button onClick={() => scrollToSection('projects')} className="hover:text-purple-400 transition-colors">Projects</button></li>
                 <li><button onClick={() => scrollToSection('research')} className="hover:text-purple-400 transition-colors">Research</button></li>
                 <li><button onClick={() => scrollToSection('teaching')} className="hover:text-purple-400 transition-colors">Teaching</button></li>
+                <li><button onClick={() => scrollToSection('courses')} className="hover:text-purple-400 transition-colors">Courses</button></li>
               </ul>
             </div>
             <div>
