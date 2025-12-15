@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Menu, X, Mail, Linkedin, Github, BookOpen, Briefcase, GraduationCap, Code, User } from 'lucide-react';
+import { Menu, X, Mail, Linkedin, Github, BookOpen, Briefcase, GraduationCap, Code, User, Star, Quote } from 'lucide-react';
 
 function App() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -27,13 +27,14 @@ function App() {
             </div>
 
             {/* Desktop Navigation */}
-            <div className="hidden md:flex space-x-8">
+            <div className="hidden md:flex space-x-6">
               <button onClick={() => scrollToSection('home')} className={`transition-colors ${activeSection === 'home' ? 'text-purple-600' : 'text-gray-700 hover:text-purple-600'}`}>Home</button>
               <button onClick={() => scrollToSection('about')} className={`transition-colors ${activeSection === 'about' ? 'text-purple-600' : 'text-gray-700 hover:text-purple-600'}`}>About</button>
               <button onClick={() => scrollToSection('resume')} className={`transition-colors ${activeSection === 'resume' ? 'text-purple-600' : 'text-gray-700 hover:text-purple-600'}`}>Resume</button>
               <button onClick={() => scrollToSection('research')} className={`transition-colors ${activeSection === 'research' ? 'text-purple-600' : 'text-gray-700 hover:text-purple-600'}`}>Research</button>
               <button onClick={() => scrollToSection('teaching')} className={`transition-colors ${activeSection === 'teaching' ? 'text-purple-600' : 'text-gray-700 hover:text-purple-600'}`}>Teaching</button>
               <button onClick={() => scrollToSection('courses')} className={`transition-colors ${activeSection === 'courses' ? 'text-purple-600' : 'text-gray-700 hover:text-purple-600'}`}>Courses</button>
+              <button onClick={() => scrollToSection('testimonials')} className={`transition-colors ${activeSection === 'testimonials' ? 'text-purple-600' : 'text-gray-700 hover:text-purple-600'}`}>Reviews</button>
             </div>
 
             {/* Mobile menu button */}
@@ -55,6 +56,7 @@ function App() {
               <button onClick={() => scrollToSection('research')} className="block w-full text-left px-3 py-2 text-gray-700 hover:bg-purple-50 hover:text-purple-600 rounded-md">Research</button>
               <button onClick={() => scrollToSection('teaching')} className="block w-full text-left px-3 py-2 text-gray-700 hover:bg-purple-50 hover:text-purple-600 rounded-md">Teaching</button>
               <button onClick={() => scrollToSection('courses')} className="block w-full text-left px-3 py-2 text-gray-700 hover:bg-purple-50 hover:text-purple-600 rounded-md">Courses</button>
+              <button onClick={() => scrollToSection('testimonials')} className="block w-full text-left px-3 py-2 text-gray-700 hover:bg-purple-50 hover:text-purple-600 rounded-md">Reviews</button>
             </div>
           </div>
         )}
@@ -623,6 +625,150 @@ function App() {
         </div>
       </section>
 
+      {/* Student Testimonials */}
+      <section id="testimonials" className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <div className="flex items-center justify-center gap-2 mb-4">
+              <h2 className="text-4xl font-bold text-gray-900">Student Testimonials</h2>
+              <div className="flex items-center bg-blue-600 text-white px-4 py-2 rounded-full">
+                <Star size={20} fill="currentColor" />
+                <span className="ml-1 font-bold">4.6/5</span>
+              </div>
+            </div>
+            <p className="text-xl text-gray-600">27 ratings from Rate My Professors</p>
+            <a
+              href="https://www.ratemyprofessors.com/professor/2760960"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block mt-4 text-blue-600 hover:text-blue-800 font-medium transition-colors"
+            >
+              View all reviews →
+            </a>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Testimonial 1 */}
+            <div className="bg-gray-50 rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow relative">
+              <Quote className="absolute top-4 right-4 text-blue-200" size={40} />
+              <div className="flex items-center gap-1 mb-4">
+                {[...Array(5)].map((_, i) => (
+                  <Star key={i} size={18} fill="#2563eb" className="text-blue-600" />
+                ))}
+              </div>
+              <p className="text-gray-700 mb-4 italic">
+                "She asks questions that make you think instead of just memorizing. She's approachable, fair, and encourages participation."
+              </p>
+              <div className="flex flex-wrap gap-2 mb-3">
+                <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-xs">Get ready to read</span>
+                <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-xs">Group projects</span>
+                <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-xs">Gives good feedback</span>
+              </div>
+              <p className="text-sm text-gray-500">September 2025 • Online Course</p>
+            </div>
+
+            {/* Testimonial 2 */}
+            <div className="bg-gray-50 rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow relative">
+              <Quote className="absolute top-4 right-4 text-blue-200" size={40} />
+              <div className="flex items-center gap-1 mb-4">
+                {[...Array(5)].map((_, i) => (
+                  <Star key={i} size={18} fill="#2563eb" className="text-blue-600" />
+                ))}
+              </div>
+              <p className="text-gray-700 mb-4 italic">
+                "The lectures are clear and well thought out, and she uses examples from her own experience. Interactive, hands-on activities with a welcoming classroom environment."
+              </p>
+              <div className="flex flex-wrap gap-2 mb-3">
+                <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-xs">Amazing lectures</span>
+                <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-xs">Clear grading criteria</span>
+              </div>
+              <p className="text-sm text-gray-500">September 2025 • Online Course</p>
+            </div>
+
+            {/* Testimonial 3 */}
+            <div className="bg-gray-50 rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow relative">
+              <Quote className="absolute top-4 right-4 text-blue-200" size={40} />
+              <div className="flex items-center gap-1 mb-4">
+                {[...Array(5)].map((_, i) => (
+                  <Star key={i} size={18} fill="#2563eb" className="text-blue-600" />
+                ))}
+              </div>
+              <p className="text-gray-700 mb-4 italic">
+                "She incorporated current events and real-world case studies that made everything relevant. Highly responsive via email and Teams."
+              </p>
+              <div className="flex flex-wrap gap-2 mb-3">
+                <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-xs">Amazing lectures</span>
+                <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-xs">Accessible outside class</span>
+              </div>
+              <p className="text-sm text-gray-500">July 2025 • Online Course</p>
+            </div>
+
+            {/* Testimonial 4 */}
+            <div className="bg-gray-50 rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow relative">
+              <Quote className="absolute top-4 right-4 text-blue-200" size={40} />
+              <div className="flex items-center gap-1 mb-4">
+                {[...Array(4)].map((_, i) => (
+                  <Star key={i} size={18} fill="#2563eb" className="text-blue-600" />
+                ))}
+              </div>
+              <p className="text-gray-700 mb-4 italic">
+                "She's a natural leader who knows how to guide discussions so every voice counts! Insightful lectures and engaging teaching style."
+              </p>
+              <div className="flex flex-wrap gap-2 mb-3">
+                <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-xs">Amazing lectures</span>
+                <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-xs">Clear grading criteria</span>
+              </div>
+              <p className="text-sm text-gray-500">September 2025</p>
+            </div>
+
+            {/* Testimonial 5 */}
+            <div className="bg-gray-50 rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow relative">
+              <Quote className="absolute top-4 right-4 text-blue-200" size={40} />
+              <div className="flex items-center gap-1 mb-4">
+                {[...Array(4)].map((_, i) => (
+                  <Star key={i} size={18} fill="#2563eb" className="text-blue-600" />
+                ))}
+              </div>
+              <p className="text-gray-700 mb-4 italic">
+                "Fast-paced summer course with excellent resources and clear instruction. Students gain career-relevant skills."
+              </p>
+              <div className="flex flex-wrap gap-2 mb-3">
+                <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-xs">Gives good feedback</span>
+                <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-xs">Caring</span>
+                <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-xs">Accessible outside class</span>
+              </div>
+              <p className="text-sm text-gray-500">July 2025 • Online Course</p>
+            </div>
+
+            {/* Key Strengths Summary */}
+            <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow border-2 border-blue-600">
+              <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
+                <GraduationCap className="text-blue-600" />
+                Key Strengths
+              </h3>
+              <ul className="space-y-2 text-gray-700">
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-600 font-bold">•</span>
+                  <span>Outstanding lecture quality</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-600 font-bold">•</span>
+                  <span>Strong leadership and classroom management</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-600 font-bold">•</span>
+                  <span>Accessible and responsive outside class</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-600 font-bold">•</span>
+                  <span>Encourages critical thinking and participation</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="bg-black text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -638,6 +784,7 @@ function App() {
                 <li><button onClick={() => scrollToSection('research')} className="hover:text-purple-400 transition-colors">Research</button></li>
                 <li><button onClick={() => scrollToSection('teaching')} className="hover:text-purple-400 transition-colors">Teaching</button></li>
                 <li><button onClick={() => scrollToSection('courses')} className="hover:text-purple-400 transition-colors">Courses</button></li>
+                <li><button onClick={() => scrollToSection('testimonials')} className="hover:text-purple-400 transition-colors">Reviews</button></li>
               </ul>
             </div>
             <div>
