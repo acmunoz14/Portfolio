@@ -976,7 +976,7 @@ function App() {
             <div>
               <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
               <ul className="space-y-2 text-gray-400">
-                <li><button onClick={() => scrollToSection('resume')} className="hover:text-purple-400 transition-colors">Resume</button></li>
+                <li><button onClick={() => scrollToSection('resume')} className="hover:text-purple-400 transition-colors">Curriculum Vitae</button></li>
                 <li><button onClick={() => scrollToSection('research')} className="hover:text-purple-400 transition-colors">Research</button></li>
                 <li><button onClick={() => scrollToSection('teaching')} className="hover:text-purple-400 transition-colors">Teaching</button></li>
                 <li><button onClick={() => scrollToSection('courses')} className="hover:text-purple-400 transition-colors">Courses</button></li>
