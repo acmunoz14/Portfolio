@@ -230,6 +230,18 @@ function App() {
               </div>
             </div>
 
+            {/* Honors & Awards */}
+            <div>
+              <h3 className="text-2xl font-semibold text-gray-900 mb-6 border-l-4 border-purple-600 pl-4">Honors & Awards</h3>
+              <div className="space-y-6">
+                <div className="bg-gray-50 p-6 rounded-lg hover:shadow-md transition-shadow">
+                  <h4 className="text-xl font-semibold text-gray-900">MGA School of Computing Excellence in Teaching Award</h4>
+                  <p className="text-purple-600 font-medium">Middle Georgia State University School of Computing</p>
+                  <p className="text-gray-600">Issued Aug 2025</p>
+                </div>
+              </div>
+            </div>
+
             {/* Experience */}
             <div>
               <h3 className="text-2xl font-semibold text-gray-900 mb-6 border-l-4 border-purple-600 pl-4">Experience</h3>
