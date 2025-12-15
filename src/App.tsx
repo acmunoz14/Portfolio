@@ -456,9 +456,13 @@ function App() {
                     <p>26400</p>
                   </div>
                 </div>
-                <span className="inline-flex items-center text-gray-400 font-medium">
-                  Syllabus Coming Soon
-                </span>
+                <a
+                  href="/26400_itec_3235-02_munoz_spring_2026.docx"
+                  download
+                  className="inline-flex items-center text-purple-600 hover:text-purple-800 font-medium"
+                >
+                  Download Syllabus →
+                </a>
               </div>
 
               {/* ITEC 3235-03 */}
