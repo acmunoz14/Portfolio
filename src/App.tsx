@@ -333,6 +333,60 @@ function App() {
                     <li>Initiated a cost-efficient Overdue Collections Program</li>
                   </ul>
                 </div>
+
+                <div className="bg-gray-50 p-6 rounded-lg hover:shadow-md transition-shadow">
+                  <h4 className="text-xl font-semibold text-gray-900">Sales Account Manager and On-Air Talent</h4>
+                  <p className="text-purple-600 font-medium">WJFL 101.9 FM Radio Station</p>
+                  <p className="text-gray-600">Apr 2009 - Jan 2010 · 10 mos · Part-time</p>
+                  <p className="text-gray-600 text-sm mb-3">United States</p>
+                  <ul className="list-disc list-inside text-gray-700 space-y-1">
+                    <li>Managed client accounts for all advertisement sales across four counties in rural Georgia</li>
+                    <li>Sold and created advertisements, ensuring messaging resonated with target audiences</li>
+                    <li>Developed program scheduling and voiced commercials, contributing to a dynamic on-air presence</li>
+                    <li>Served as a live on-air personality for the daily morning talk show, providing engaging entertainment and discussion</li>
+                    <li>Analyzed marketing data and designed innovative strategies to develop resourceful advertising promotions following the Great Recession</li>
+                    <li>Increased advertising sales by 30% during a challenging economic period</li>
+                  </ul>
+                </div>
+
+                <div className="bg-gray-50 p-6 rounded-lg hover:shadow-md transition-shadow">
+                  <h4 className="text-xl font-semibold text-gray-900">Photoshop Assistant and Studio Manager</h4>
+                  <p className="text-purple-600 font-medium">Sturgis Photography</p>
+                  <p className="text-gray-600">Nov 2008 - Apr 2009 · 6 mos · Full-time</p>
+                  <p className="text-gray-600 text-sm mb-3">United States</p>
+                  <ul className="list-disc list-inside text-gray-700 space-y-1">
+                    <li>Directed daily management and production functions, oversaw hiring and training of new staff, coordinated appointments, and procured supplies</li>
+                    <li>Developed and coordinated an online cloud-based storage solution to organize photo files, customer accounts, tax information and managed appointments in real-time across two studio locations</li>
+                    <li>Processed photos using Adobe Photoshop including retouching, restoration, altering images, enhancing images, and creating graphic design effects for product development and promotional sales</li>
+                  </ul>
+                </div>
+
+                <div className="bg-gray-50 p-6 rounded-lg hover:shadow-md transition-shadow">
+                  <h4 className="text-xl font-semibold text-gray-900">Marketing and Public Relations Assistant</h4>
+                  <p className="text-purple-600 font-medium">Swainsboro Technical College</p>
+                  <p className="text-gray-600">May 2008 - Nov 2008 · 7 mos · Full-time</p>
+                  <p className="text-gray-600 text-sm mb-3">United States</p>
+                  <ul className="list-disc list-inside text-gray-700 space-y-1">
+                    <li>Initiated internship opportunity with the local technical college to create press materials and media content while gaining public relations experience</li>
+                    <li>Coordinated publicity photo shoots and photographed the cover shot for Georgia Magazine's September 2008 edition</li>
+                    <li>Wrote and published numerous press releases and web content to cover over six months of events on campus for multiple campuses and regions</li>
+                    <li>Organized commercial production with TV-35 of Dublin, GA to promote programs, registration, and showcase new technology center on campus</li>
+                    <li>Designed and completed marketing analysis for STC Foundation including donation letters, annual reports with recruitment and retention statistics, as well as print and online advertisements</li>
+                  </ul>
+                </div>
+
+                <div className="bg-gray-50 p-6 rounded-lg hover:shadow-md transition-shadow">
+                  <h4 className="text-xl font-semibold text-gray-900">Production Assistant</h4>
+                  <p className="text-purple-600 font-medium">Z97.7 FM Radio Station</p>
+                  <p className="text-gray-600">Mar 2007 - Apr 2008 · 1 yr 2 mos · Part-time</p>
+                  <p className="text-gray-600 text-sm mb-3">United States</p>
+                  <ul className="list-disc list-inside text-gray-700 space-y-1">
+                    <li>Delivered engaging radio shows and voiced commercials, maintaining a vibrant and professional on-air presence</li>
+                    <li>Operated the production board during live football and basketball games, ensuring accurate updates and smooth transitions</li>
+                    <li>Coordinated and hosted live remote events, delivering seamless broadcasts and fostering strong audience engagement</li>
+                    <li>Served as a Lake Patrol Girl by providing fun opportunities for locals to win live prizes on Lake Sinclair and Lake Oconee</li>
+                  </ul>
+                </div>
               </div>
             </div>
 
