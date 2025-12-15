@@ -541,9 +541,13 @@ function App() {
                   <p>March 9 – May 6, 2026</p>
                 </div>
               </div>
-              <span className="inline-flex items-center text-gray-400 font-medium">
-                Syllabus Coming Soon
-              </span>
+              <a
+                href="/25440_itec_6340-01_munoz_spring_2026.docx"
+                download
+                className="inline-flex items-center text-purple-600 hover:text-purple-800 font-medium"
+              >
+                Download Syllabus →
+              </a>
             </div>
           </div>
         </div>
