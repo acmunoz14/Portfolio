@@ -344,42 +344,176 @@ function App() {
       {/* Teaching Section */}
       <section id="teaching" className="py-20 bg-gradient-to-br from-purple-50 to-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center mb-12">
+          <div className="flex items-center mb-8">
             <GraduationCap className="text-purple-600 mr-3" size={32} />
-            <h2 className="text-4xl font-bold text-gray-900">Courses Taught</h2>
+            <h2 className="text-4xl font-bold text-gray-900">Spring 2026 Teaching Schedule</h2>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8">
-            {[
-              { code: 'ITEC 3235', name: 'Human and Computer Interaction', level: 'Undergraduate', semester: 'Online' },
-              { code: 'ITEC 3300', name: 'Project Management', level: 'Undergraduate', semester: 'Online' },
-              { code: 'ITEC 6300', name: 'Advanced Health in IT', level: 'Graduate', semester: 'Online' },
-              { code: 'ITEC 6320', name: 'Advanced Electronic Records', level: 'Graduate', semester: 'Online' },
-              { code: 'ITEC 4205', name: 'Legal and Ethical Issues', level: 'Undergraduate', semester: 'Online' },
-              { code: 'ITEC 3155', name: 'Systems Analysis Design', level: 'Undergraduate', semester: 'Online' },
-              { code: 'ITEC 6340', name: 'Public Health Informatics', level: 'Graduate', semester: 'Online' },
-            ].map((course) => (
-              <div key={course.code} className="bg-white rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow">
-                <div className="flex items-start justify-between mb-4">
+          <p className="text-lg text-gray-700 mb-12">January 12 – May 8, 2026</p>
+
+          {/* Undergraduate Courses */}
+          <div className="mb-12">
+            <h3 className="text-2xl font-semibold text-gray-900 mb-6 border-l-4 border-purple-600 pl-4">Undergraduate Courses</h3>
+            <div className="space-y-6">
+              {/* ITEC 3155-01 */}
+              <div className="bg-white rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow">
+                <div className="flex flex-wrap items-start justify-between mb-4">
                   <div>
-                    <p className="text-purple-600 font-bold text-lg">{course.code}</p>
-                    <h3 className="text-xl font-semibold text-gray-900 mt-1">{course.name}</h3>
+                    <h4 className="text-2xl font-bold text-purple-600">ITEC 3155-01</h4>
+                    <p className="text-xl font-semibold text-gray-900 mt-1">Systems Analysis and Design</p>
                   </div>
-                  <span className={`px-3 py-1 rounded-full text-sm font-medium ${
-                    course.level === 'Graduate'
-                      ? 'bg-purple-600 text-white'
-                      : 'bg-gray-200 text-gray-800'
-                  }`}>
-                    {course.level}
+                  <span className="bg-gray-200 text-gray-800 px-3 py-1 rounded-full text-sm font-medium">
+                    Junior/Senior
                   </span>
                 </div>
-                <p className="text-gray-600 mb-4">A comprehensive course covering fundamental and advanced topics with hands-on projects and real-world applications.</p>
-                <div className="flex justify-between items-center">
-                  <span className="text-gray-500 text-sm">{course.semester}</span>
-                  <a href="#" className="text-purple-600 hover:text-purple-800 font-medium">View Syllabus →</a>
+                <div className="grid md:grid-cols-2 gap-4 text-gray-700">
+                  <div>
+                    <p className="font-medium text-gray-900">Format</p>
+                    <p className="text-purple-600">Fully Online (MGA Direct)</p>
+                  </div>
+                  <div>
+                    <p className="font-medium text-gray-900">Credits</p>
+                    <p>3</p>
+                  </div>
+                  <div>
+                    <p className="font-medium text-gray-900">CRN</p>
+                    <p>25185</p>
+                  </div>
+                  <div>
+                    <p className="font-medium text-gray-900">Enrollment</p>
+                    <p className="text-red-600 font-medium">29/30 seats filled (Waitlist full)</p>
+                  </div>
                 </div>
               </div>
-            ))}
+
+              {/* ITEC 3155-02 */}
+              <div className="bg-white rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow">
+                <div className="flex flex-wrap items-start justify-between mb-4">
+                  <div>
+                    <h4 className="text-2xl font-bold text-purple-600">ITEC 3155-02</h4>
+                    <p className="text-xl font-semibold text-gray-900 mt-1">Systems Analysis and Design</p>
+                  </div>
+                  <span className="bg-gray-200 text-gray-800 px-3 py-1 rounded-full text-sm font-medium">
+                    Junior/Senior
+                  </span>
+                </div>
+                <div className="grid md:grid-cols-2 gap-4 text-gray-700">
+                  <div>
+                    <p className="font-medium text-gray-900">Meeting Days</p>
+                    <p>Monday & Wednesday</p>
+                  </div>
+                  <div>
+                    <p className="font-medium text-gray-900">Time</p>
+                    <p>11:00 AM – 12:15 PM</p>
+                  </div>
+                  <div>
+                    <p className="font-medium text-gray-900">Location</p>
+                    <p>PSC Room 256 (Macon Campus)</p>
+                  </div>
+                  <div>
+                    <p className="font-medium text-gray-900">Credits / CRN</p>
+                    <p>3 Credits / CRN 26555</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* ITEC 3235-02 */}
+              <div className="bg-white rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow">
+                <div className="flex flex-wrap items-start justify-between mb-4">
+                  <div>
+                    <h4 className="text-2xl font-bold text-purple-600">ITEC 3235-02</h4>
+                    <p className="text-xl font-semibold text-gray-900 mt-1">Human and Computer Interaction</p>
+                  </div>
+                  <span className="bg-gray-200 text-gray-800 px-3 py-1 rounded-full text-sm font-medium">
+                    Junior/Senior
+                  </span>
+                </div>
+                <div className="grid md:grid-cols-2 gap-4 text-gray-700">
+                  <div>
+                    <p className="font-medium text-gray-900">Format</p>
+                    <p className="text-purple-600">Fully Online</p>
+                  </div>
+                  <div>
+                    <p className="font-medium text-gray-900">Credits</p>
+                    <p>3</p>
+                  </div>
+                  <div>
+                    <p className="font-medium text-gray-900">CRN</p>
+                    <p>26400</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* ITEC 3235-03 */}
+              <div className="bg-white rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow">
+                <div className="flex flex-wrap items-start justify-between mb-4">
+                  <div>
+                    <h4 className="text-2xl font-bold text-purple-600">ITEC 3235-03</h4>
+                    <p className="text-xl font-semibold text-gray-900 mt-1">Human and Computer Interaction</p>
+                  </div>
+                  <div className="flex gap-2">
+                    <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-medium">
+                      Hybrid
+                    </span>
+                    <span className="bg-gray-200 text-gray-800 px-3 py-1 rounded-full text-sm font-medium">
+                      Junior/Senior
+                    </span>
+                  </div>
+                </div>
+                <div className="grid md:grid-cols-2 gap-4 text-gray-700">
+                  <div>
+                    <p className="font-medium text-gray-900">Meeting Days</p>
+                    <p>Monday & Wednesday</p>
+                  </div>
+                  <div>
+                    <p className="font-medium text-gray-900">Time</p>
+                    <p>12:30 PM – 1:45 PM</p>
+                  </div>
+                  <div>
+                    <p className="font-medium text-gray-900">Location</p>
+                    <p>PSC Room 107 (Macon Campus)</p>
+                  </div>
+                  <div>
+                    <p className="font-medium text-gray-900">Credits / CRN</p>
+                    <p>3 Credits / CRN 26556</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Graduate Course */}
+          <div>
+            <h3 className="text-2xl font-semibold text-gray-900 mb-6 border-l-4 border-purple-600 pl-4">Graduate Course</h3>
+            <div className="bg-white rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow">
+              <div className="flex flex-wrap items-start justify-between mb-4">
+                <div>
+                  <h4 className="text-2xl font-bold text-purple-600">ITEC 6340-01</h4>
+                  <p className="text-xl font-semibold text-gray-900 mt-1">Public Health Informatics</p>
+                </div>
+                <span className="bg-purple-600 text-white px-3 py-1 rounded-full text-sm font-medium">
+                  Graduate
+                </span>
+              </div>
+              <div className="grid md:grid-cols-2 gap-4 text-gray-700">
+                <div>
+                  <p className="font-medium text-gray-900">Format</p>
+                  <p className="text-purple-600">Fully Online (MGA Direct)</p>
+                </div>
+                <div>
+                  <p className="font-medium text-gray-900">Credits</p>
+                  <p>3</p>
+                </div>
+                <div>
+                  <p className="font-medium text-gray-900">CRN</p>
+                  <p>25440</p>
+                </div>
+                <div>
+                  <p className="font-medium text-gray-900">Dates</p>
+                  <p>March 9 – May 6, 2026</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
