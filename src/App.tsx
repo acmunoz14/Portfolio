@@ -30,7 +30,7 @@ function App() {
             <div className="hidden md:flex space-x-6">
               <button onClick={() => scrollToSection('home')} className={`transition-colors ${activeSection === 'home' ? 'text-purple-600' : 'text-gray-700 hover:text-purple-600'}`}>Home</button>
               <button onClick={() => scrollToSection('about')} className={`transition-colors ${activeSection === 'about' ? 'text-purple-600' : 'text-gray-700 hover:text-purple-600'}`}>About</button>
-              <button onClick={() => scrollToSection('resume')} className={`transition-colors ${activeSection === 'resume' ? 'text-purple-600' : 'text-gray-700 hover:text-purple-600'}`}>Resume</button>
+              <button onClick={() => scrollToSection('resume')} className={`transition-colors ${activeSection === 'resume' ? 'text-purple-600' : 'text-gray-700 hover:text-purple-600'}`}>Curriculum Vitae</button>
               <button onClick={() => scrollToSection('research')} className={`transition-colors ${activeSection === 'research' ? 'text-purple-600' : 'text-gray-700 hover:text-purple-600'}`}>Research</button>
               <button onClick={() => scrollToSection('teaching')} className={`transition-colors ${activeSection === 'teaching' ? 'text-purple-600' : 'text-gray-700 hover:text-purple-600'}`}>Teaching</button>
               <button onClick={() => scrollToSection('courses')} className={`transition-colors ${activeSection === 'courses' ? 'text-purple-600' : 'text-gray-700 hover:text-purple-600'}`}>Courses</button>
@@ -52,7 +52,7 @@ function App() {
             <div className="px-2 pt-2 pb-3 space-y-1">
               <button onClick={() => scrollToSection('home')} className="block w-full text-left px-3 py-2 text-gray-700 hover:bg-purple-50 hover:text-purple-600 rounded-md">Home</button>
               <button onClick={() => scrollToSection('about')} className="block w-full text-left px-3 py-2 text-gray-700 hover:bg-purple-50 hover:text-purple-600 rounded-md">About</button>
-              <button onClick={() => scrollToSection('resume')} className="block w-full text-left px-3 py-2 text-gray-700 hover:bg-purple-50 hover:text-purple-600 rounded-md">Resume</button>
+              <button onClick={() => scrollToSection('resume')} className="block w-full text-left px-3 py-2 text-gray-700 hover:bg-purple-50 hover:text-purple-600 rounded-md">Curriculum Vitae</button>
               <button onClick={() => scrollToSection('research')} className="block w-full text-left px-3 py-2 text-gray-700 hover:bg-purple-50 hover:text-purple-600 rounded-md">Research</button>
               <button onClick={() => scrollToSection('teaching')} className="block w-full text-left px-3 py-2 text-gray-700 hover:bg-purple-50 hover:text-purple-600 rounded-md">Teaching</button>
               <button onClick={() => scrollToSection('courses')} className="block w-full text-left px-3 py-2 text-gray-700 hover:bg-purple-50 hover:text-purple-600 rounded-md">Courses</button>
