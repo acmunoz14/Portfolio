@@ -190,7 +190,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center mb-12">
             <Briefcase className="text-purple-600 mr-3" size={32} />
-            <h2 className="text-4xl font-bold text-gray-900">Resume</h2>
+            <h2 className="text-4xl font-bold text-gray-900">CV</h2>
           </div>
 
           <div className="space-y-12">
