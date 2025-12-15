@@ -199,25 +199,33 @@ function App() {
               <h3 className="text-2xl font-semibold text-gray-900 mb-6 border-l-4 border-purple-600 pl-4">Education</h3>
               <div className="space-y-6">
                 <div className="bg-gray-50 p-6 rounded-lg hover:shadow-md transition-shadow">
-                  <h4 className="text-xl font-semibold text-gray-900">Doctorate of Science in Information Technology</h4>
+                  <h4 className="text-xl font-semibold text-gray-900">Doctorate of Science, Information Technology</h4>
                   <p className="text-purple-600 font-medium">Middle Georgia State University</p>
-                  <p className="text-gray-600">2024</p>
-                  <p className="text-gray-700 mt-2">Research Focus: Optimizing diabetes diagnosis through machine learning and predictive modeling</p>
+                  <p className="text-gray-600">May 2022 - May 2024</p>
+                  <p className="text-gray-700 mt-2"><span className="font-medium">Grade:</span> 4.0</p>
+                  <p className="text-gray-700 mt-2"><span className="font-medium">Activities and societies:</span> National Society of Leadership and Success (2023), Alpha Iota Mu Information Systems Honor Society (2025)</p>
                 </div>
                 <div className="bg-gray-50 p-6 rounded-lg hover:shadow-md transition-shadow">
-                  <h4 className="text-xl font-semibold text-gray-900">Master of Science in Information Technology</h4>
+                  <h4 className="text-xl font-semibold text-gray-900">Master of Science, Information Technology</h4>
                   <p className="text-purple-600 font-medium">Middle Georgia State University</p>
-                  <p className="text-gray-600">2021</p>
+                  <p className="text-gray-600">2020 - 2021</p>
+                  <p className="text-gray-700 mt-2"><span className="font-medium">Grade:</span> 4.0</p>
+                  <p className="text-gray-700 mt-2"><span className="font-medium">Activities and societies:</span> National Society of Leadership and Success (2020), President's Torch Society (2020)</p>
+                  <p className="text-gray-700 mt-2 text-sm">Recognized for academic achievement, leadership, and service through participation in honor societies and university initiatives that promote excellence, mentorship, and professional development.</p>
                 </div>
                 <div className="bg-gray-50 p-6 rounded-lg hover:shadow-md transition-shadow">
-                  <h4 className="text-xl font-semibold text-gray-900">Bachelor of Arts in Mass Communications</h4>
+                  <h4 className="text-xl font-semibold text-gray-900">Bachelor of Arts, Mass Communication/Media Studies</h4>
                   <p className="text-purple-600 font-medium">Georgia College & State University</p>
-                  <p className="text-gray-600">2008</p>
+                  <p className="text-gray-600">2006 - 2008</p>
+                  <p className="text-gray-700 mt-2"><span className="font-medium">Activities and societies:</span> Lambda Pi Eta Communications Honor Society, Member of Public Relations Society of America, WGUR 88.9 FM Campus Radio DJ, International Students Association Salsa Club, Writer for The Colonnade student newspaper, GCSU Waterski Team Trainee</p>
+                  <p className="text-gray-700 mt-2 text-sm">Participated in academic, media, and cultural organizations promoting communication, creativity, and global engagement through broadcast journalism, student media, and intercultural events.</p>
                 </div>
                 <div className="bg-gray-50 p-6 rounded-lg hover:shadow-md transition-shadow">
-                  <h4 className="text-xl font-semibold text-gray-900">Associate of Arts in General Studies</h4>
-                  <p className="text-purple-600 font-medium">East Georgia College</p>
-                  <p className="text-gray-600">2005</p>
+                  <h4 className="text-xl font-semibold text-gray-900">Associate of Arts, General Studies</h4>
+                  <p className="text-purple-600 font-medium">East Georgia State College</p>
+                  <p className="text-gray-600">2003 - 2005</p>
+                  <p className="text-gray-700 mt-2"><span className="font-medium">Activities and societies:</span> Phi Theta Kappa Honors Society, Coca-Cola Two-Year College Scholar (2005), Circle K International (President & Vice President), Georgia District Circle K Board (President's Council Rep), Student Government Association (Vice President & Secretary), Student Ambassador – Enrollment & Recruitment Committee, International Club (President), International Movie Club, Editor – The Hoopee Bird Newsletter</p>
+                  <p className="text-gray-700 mt-2 text-sm">Served in multiple leadership and editorial roles promoting service, diversity, and student engagement through campus governance, international programming, and community outreach.</p>
                 </div>
               </div>
             </div>
