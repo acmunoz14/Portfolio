@@ -159,32 +159,20 @@ function App() {
               </div>
 
               <div className="bg-white p-6 rounded-lg shadow-lg">
-                <h3 className="text-xl font-semibold text-gray-900 mb-4 border-b-2 border-purple-600 pb-2">Office Hours</h3>
-                <div className="space-y-2 text-sm text-gray-700">
-                  <div>
-                    <p className="font-medium">Monday (Cochran)</p>
-                    <p>8:15 AM - 9:15 AM</p>
-                    <p>11:00 AM - 2:00 PM</p>
+                <h3 className="text-xl font-semibold text-gray-900 mb-4 border-b-2 border-purple-600 pb-2">Office Hours - Spring 2026</h3>
+                <div className="space-y-3 text-sm text-gray-700">
+                  <div className="mb-3">
+                    <p className="font-semibold text-gray-900">Macon Campus PSC 325</p>
                   </div>
                   <div>
-                    <p className="font-medium">Tuesday (Macon)</p>
-                    <p>8:30 AM - 10:30 AM</p>
-                    <p>12:30 PM - 1:30 PM</p>
+                    <p className="font-medium">Monday</p>
+                    <p>9:00 AM - 11:00 AM</p>
+                    <p>2:00 PM - 4:00 PM</p>
                   </div>
                   <div>
-                    <p className="font-medium">Wednesday (Online)</p>
-                    <p>8:30 AM - 2:30 PM</p>
-                    <p className="text-xs">(Email or Teams)</p>
-                  </div>
-                  <div>
-                    <p className="font-medium">Thursday (Macon)</p>
-                    <p>8:30 AM - 10:30 AM</p>
-                    <p>12:30 PM - 1:30 PM</p>
-                  </div>
-                  <div>
-                    <p className="font-medium">Online (M-F)</p>
-                    <p>8:30 AM - 2:30 PM</p>
-                    <p className="text-xs">(Email or Teams)</p>
+                    <p className="font-medium">Wednesday</p>
+                    <p>9:00 AM - 11:00 AM</p>
+                    <p>2:00 PM - 4:00 PM</p>
                   </div>
                 </div>
               </div>
