@@ -185,12 +185,12 @@ function App() {
         </div>
       </section>
 
-      {/* Resume Section */}
+      {/* Curriculum Vitae Section */}
       <section id="resume" className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center mb-12">
             <Briefcase className="text-purple-600 mr-3" size={32} />
-            <h2 className="text-4xl font-bold text-gray-900">CV</h2>
+            <h2 className="text-4xl font-bold text-gray-900">Curriculum Vitae</h2>
           </div>
 
           <div className="space-y-12">
