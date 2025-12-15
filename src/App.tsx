@@ -298,7 +298,7 @@ function App() {
                   <p className="text-gray-700 mt-3 mb-2 font-medium">Leadership & Service:</p>
                   <ul className="list-disc list-inside text-gray-700 text-sm space-y-1">
                     <li>Marketing & Recruitment Committee Chair (2025–Present)</li>
-                    <li>Student Affairs Committee: Subcommittee Chair – Knights for Life (2025–Present)</li>
+                    <li>Student Affairs Committee Member and Subcommittee Co-Chair of Knights for Life (2025-Present)</li>
                     <li>Campus Foundation Ambassador</li>
                     <li>Faculty Sponsor – AWITCS (Association of Women in Information Technology & Cybersecurity Students)</li>
                   </ul>
