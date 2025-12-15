@@ -79,7 +79,7 @@ function App() {
               <a href="mailto:angela.munoz@mga.edu" className="text-gray-600 hover:text-purple-600 transition-colors">
                 <Mail size={28} />
               </a>
-              <a href="https://www.linkedin.com/in/dr-angela-c-munoz-a7a522188" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-purple-600 transition-colors">
+              <a href="https://www.linkedin.com/in/angelacmunoz/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-purple-600 transition-colors">
                 <Linkedin size={28} />
               </a>
               <a href="https://www.mga.edu/computing/index.php" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-purple-600 transition-colors">
@@ -229,23 +229,108 @@ function App() {
                 <div className="bg-gray-50 p-6 rounded-lg hover:shadow-md transition-shadow">
                   <h4 className="text-xl font-semibold text-gray-900">Assistant Professor of Information Technology</h4>
                   <p className="text-purple-600 font-medium">Middle Georgia State University</p>
-                  <p className="text-gray-600">Aug 2024 - Present</p>
-                  <ul className="list-disc list-inside text-gray-700 mt-3 space-y-1">
-                    <li>Teaching courses in Health Informatics, AI, Cybersecurity, and Human-Computer Interaction</li>
-                    <li>Leading research in AI applications for public health and emergency response</li>
-                    <li>Published researcher in IACIS with expertise in systematic reviews</li>
-                    <li>Curriculum innovator and advocate for ethical technology</li>
-                    <li>Mentoring women in tech through AWITCS (Association for Women in Technology and Computer Science)</li>
+                  <p className="text-gray-600">Aug 2024 - Present · Full-time · Hybrid</p>
+                  <p className="text-gray-600 text-sm mb-3">Macon, Georgia, United States</p>
+                  <p className="text-gray-700 mb-2 font-medium">Courses Taught:</p>
+                  <p className="text-gray-700 mb-3 text-sm">ITEC 2215 Introduction to Information Technology | ITEC 3235 Human & Computer Interaction | ITEC 3155 Systems Analysis & Design | ITEC 4205 Legal & Ethical Issues in IT | ITEC 6300 Advanced Health in IT | ITEC 6320 Advanced Electronic Health Records | ITEC 6340 Public Health Informatics</p>
+                  <ul className="list-disc list-inside text-gray-700 space-y-1">
+                    <li>Design and deliver engaging, student-centered curricula across undergraduate and graduate IT programs</li>
+                    <li>Publish peer-reviewed research advancing innovation in AI, Informatics, and IT Education</li>
+                    <li>Foster inclusive, collaborative learning environments that promote critical thinking, retention, and student success</li>
+                  </ul>
+                  <p className="text-gray-700 mt-3 mb-2 font-medium">Leadership & Service:</p>
+                  <ul className="list-disc list-inside text-gray-700 text-sm space-y-1">
+                    <li>Marketing & Recruitment Committee Chair (2025–Present)</li>
+                    <li>Marketing & Recruitment Subcommittee Chair – Knights for Life (2025–Present)</li>
+                    <li>Student Affairs Committee Member (2025–Present)</li>
+                    <li>Campus Foundation Ambassador</li>
+                    <li>Faculty Sponsor – AWITCS (Association of Women in Information Technology & Cybersecurity Students)</li>
                   </ul>
                 </div>
+
                 <div className="bg-gray-50 p-6 rounded-lg hover:shadow-md transition-shadow">
-                  <h4 className="text-xl font-semibold text-gray-900">Federal Service</h4>
-                  <p className="text-purple-600 font-medium">Various Federal Agencies</p>
-                  <p className="text-gray-600">Over a decade of experience</p>
-                  <ul className="list-disc list-inside text-gray-700 mt-3 space-y-1">
-                    <li>Contributed to critical infrastructure protection and cybersecurity initiatives</li>
-                    <li>Applied technology solutions to public sector challenges</li>
-                    <li>Collaborated on projects improving government service delivery</li>
+                  <h4 className="text-xl font-semibold text-gray-900">Adjunct Faculty in Information Technology</h4>
+                  <p className="text-purple-600 font-medium">Middle Georgia State University</p>
+                  <p className="text-gray-600">Aug 2021 - Jul 2024 · 3 yrs · Part-time</p>
+                  <p className="text-gray-600 text-sm mb-3">Georgia, United States</p>
+                  <p className="text-gray-700 mb-2 font-medium">Courses Taught:</p>
+                  <p className="text-gray-700 mb-3 text-sm">Online Human and Computer Interaction (ITEC 3235) | Online Project Management (ITEC 3300)</p>
+                  <ul className="list-disc list-inside text-gray-700 space-y-1">
+                    <li>Crafted dynamic, interactive curricula for courses in Human and Computer Interaction and Project Management</li>
+                    <li>Consistently received outstanding teaching evaluations and maintained high levels of student satisfaction</li>
+                    <li>Contributed to the academic community through research publications in top-tier journals</li>
+                    <li>Developed an inclusive learning environment that supported student success and professional readiness</li>
+                  </ul>
+                </div>
+
+                <div className="bg-gray-50 p-6 rounded-lg hover:shadow-md transition-shadow">
+                  <h4 className="text-xl font-semibold text-gray-900">Virtual Review Committee Volunteer</h4>
+                  <p className="text-purple-600 font-medium">International Association for Computer Information Systems (IACIS)</p>
+                  <p className="text-gray-600">Jun 2021 - Present · 4 yrs 7 mos</p>
+                  <p className="text-gray-600 text-sm mb-3">United States</p>
+                  <ul className="list-disc list-inside text-gray-700 space-y-1">
+                    <li>Volunteer responsible for reviewing peer-to-peer scholarly journal article submissions</li>
+                  </ul>
+                </div>
+
+                <div className="bg-gray-50 p-6 rounded-lg hover:shadow-md transition-shadow">
+                  <h4 className="text-xl font-semibold text-gray-900">Access Management Analyst II</h4>
+                  <p className="text-purple-600 font-medium">University System of Georgia</p>
+                  <p className="text-gray-600">Nov 2023 - Jul 2024 · 9 mos · Full-time · Hybrid</p>
+                  <p className="text-gray-600 text-sm mb-3">Sandersville, Georgia, United States</p>
+                  <ul className="list-disc list-inside text-gray-700 space-y-1">
+                    <li>Conducted extensive user acceptance and integration testing to ensure system functionality and integrity</li>
+                    <li>Collaborated with security, HR, and IT professionals to align organizational objectives with robust access management strategies</li>
+                    <li>Delivered Manager Self-Service Implementation Training to institutions including Atlanta Metro State College and East Georgia State College</li>
+                  </ul>
+                </div>
+
+                <div className="bg-gray-50 p-6 rounded-lg hover:shadow-md transition-shadow">
+                  <h4 className="text-xl font-semibold text-gray-900">Contact Representative and Spanish Translator</h4>
+                  <p className="text-purple-600 font-medium">U.S. Department of Veterans Affairs</p>
+                  <p className="text-gray-600">Feb 2012 - Nov 2023 · 11 yrs 10 mos · Full-time · Remote</p>
+                  <p className="text-gray-600 text-sm mb-3">Dublin, Georgia, United States</p>
+                  <ul className="list-disc list-inside text-gray-700 space-y-1">
+                    <li>Managed communications between customer service, management operations, quality and safety assurance, and education departments</li>
+                    <li>Published the first Meds by Mail Call Center weekly electronic publication designed for cross-site Call Center staff education and training</li>
+                    <li>Managed technical, software, and communications applications for various platforms and services</li>
+                    <li>Collected and analyzed patient healthcare data that enhances the patient experience and national patient safety standards</li>
+                    <li>Upheld federal laws and compliance regulations such as HIPAA Privacy Rule</li>
+                  </ul>
+                </div>
+
+                <div className="bg-gray-50 p-6 rounded-lg hover:shadow-md transition-shadow">
+                  <h4 className="text-xl font-semibold text-gray-900">Veterans Experience Office (VEO) Profile Data Quality Specialist</h4>
+                  <p className="text-purple-600 font-medium">U.S. Department of Veterans Affairs</p>
+                  <p className="text-gray-600">Feb 2023 - Jul 2023 · 6 mos</p>
+                  <p className="text-gray-600 text-sm mb-3">Washington, District of Columbia, United States</p>
+                  <ul className="list-disc list-inside text-gray-700 space-y-1">
+                    <li>Translated communications between English and Spanish to effectively assist Veterans</li>
+                    <li>Analyzed data to identify and document inconsistencies in the Veterans' address update process</li>
+                    <li>Utilized Microsoft Excel and Power BI to track and visualize temporary address changes</li>
+                    <li>Collaborated with cross-functional teams in an Agile project environment</li>
+                  </ul>
+                </div>
+
+                <div className="bg-gray-50 p-6 rounded-lg hover:shadow-md transition-shadow">
+                  <h4 className="text-xl font-semibold text-gray-900">Professional Resume/CV Consultant</h4>
+                  <p className="text-purple-600 font-medium">Angela's Professional Resume Consultation</p>
+                  <p className="text-gray-600">May 2018 - Apr 2022 · 4 yrs · Freelance</p>
+                  <p className="text-gray-600 text-sm mb-3">United States</p>
+                  <ul className="list-disc list-inside text-gray-700 space-y-1">
+                    <li>Design, write, and enhance resumes, CVs, executive summaries, and federal resume application packets</li>
+                  </ul>
+                </div>
+
+                <div className="bg-gray-50 p-6 rounded-lg hover:shadow-md transition-shadow">
+                  <h4 className="text-xl font-semibold text-gray-900">Library Associate</h4>
+                  <p className="text-purple-600 font-medium">East Georgia State College</p>
+                  <p className="text-gray-600">Jan 2010 - Feb 2012 · 2 yrs 2 mos · Full-time</p>
+                  <p className="text-gray-600 text-sm mb-3">United States</p>
+                  <ul className="list-disc list-inside text-gray-700 space-y-1">
+                    <li>Supervised and reviewed support staff, circulation, interlibrary loans, access services, inventory, and patron account processes</li>
+                    <li>Launched a Digital Inventory that allowed the library to complete an accurate analysis of patron behaviors and resource spending</li>
+                    <li>Initiated a cost-efficient Overdue Collections Program</li>
                   </ul>
                 </div>
               </div>
@@ -793,7 +878,7 @@ function App() {
                 <a href="mailto:your.email@example.com" className="text-gray-400 hover:text-purple-400 transition-colors">
                   <Mail size={24} />
                 </a>
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-purple-400 transition-colors">
+                <a href="https://www.linkedin.com/in/angelacmunoz/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-purple-400 transition-colors">
                   <Linkedin size={24} />
                 </a>
                 <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-purple-400 transition-colors">
