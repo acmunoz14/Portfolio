@@ -494,7 +494,7 @@ function App() {
               </div>
               <div className="flex gap-4">
                 <a href="/1_iis_2025_324-337_(2).pdf" target="_blank" rel="noopener noreferrer" className="text-purple-600 hover:text-purple-800 font-medium">Read PDF →</a>
-                <a href="https://doi.org/10.48009/1_iis_2025_124" target="_blank" rel="noopener noreferrer" className="text-purple-600 hover:text-purple-800 font-medium">DOI Link →</a>
+                <a href="https://doi.org/10.48009/1_iis_124" target="_blank" rel="noopener noreferrer" className="text-purple-600 hover:text-purple-800 font-medium">DOI Link →</a>
               </div>
             </div>
 
