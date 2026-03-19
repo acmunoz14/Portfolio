@@ -492,8 +492,7 @@ function App() {
                 <span className="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">Higher Education</span>
                 <span className="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">Student Engagement</span>
               </div>
-              <div className="flex gap-4">
-                <a href="/1_iis_2025_324-337_(2).pdf" target="_blank" rel="noopener noreferrer" className="text-purple-600 hover:text-purple-800 font-medium">Read PDF →</a>
+              <div>
                 <a href="https://doi.org/10.48009/1_iis_124" target="_blank" rel="noopener noreferrer" className="text-purple-600 hover:text-purple-800 font-medium">DOI Link →</a>
               </div>
             </div>
@@ -509,8 +508,7 @@ function App() {
                 <span className="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">Health Informatics</span>
                 <span className="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">Systematic Review</span>
               </div>
-              <div className="flex gap-4">
-                <a href="/1_iis_2024_366-375.pdf" target="_blank" rel="noopener noreferrer" className="text-purple-600 hover:text-purple-800 font-medium">Read PDF →</a>
+              <div>
                 <a href="https://doi.org/10.48009/1_iis_2024_130" target="_blank" rel="noopener noreferrer" className="text-purple-600 hover:text-purple-800 font-medium">DOI Link →</a>
               </div>
             </div>
@@ -526,8 +524,7 @@ function App() {
                 <span className="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">Cybersecurity</span>
                 <span className="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">Health Data</span>
               </div>
-              <div className="flex gap-4">
-                <a href="/2_iis_2021_74-83.pdf" target="_blank" rel="noopener noreferrer" className="text-purple-600 hover:text-purple-800 font-medium">Read PDF →</a>
+              <div>
                 <a href="https://doi.org/10.48009/2_iis_2021_74-83" target="_blank" rel="noopener noreferrer" className="text-purple-600 hover:text-purple-800 font-medium">DOI Link →</a>
               </div>
             </div>
@@ -543,8 +540,7 @@ function App() {
                 <span className="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">Analytics</span>
                 <span className="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">Workforce Development</span>
               </div>
-              <div className="flex gap-4">
-                <a href="/2_iis_2021_108-121.pdf" target="_blank" rel="noopener noreferrer" className="text-purple-600 hover:text-purple-800 font-medium">Read PDF →</a>
+              <div>
                 <a href="https://doi.org/10.48009/2_iis_2021_108-121" target="_blank" rel="noopener noreferrer" className="text-purple-600 hover:text-purple-800 font-medium">DOI Link →</a>
               </div>
             </div>
